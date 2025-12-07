@@ -14,6 +14,7 @@
     "titulo": "Teclado",
     "nivel": "A",
     "version": "2.0",
+    "perfiles": ["Front", "QA"],
     "grupo": "Interacción",
     "subgrupo": "Teclado",
     "descripcion": "Toda la funcionalidad del contenido debe poder operarse únicamente mediante teclado, sin requerir el uso del ratón y sin exigir tiempos específicos.",
@@ -50,6 +51,7 @@
     "titulo": "Sin trampas para el foco del teclado",
     "nivel": "A",
     "version": "2.0",
+    "perfiles": ["Front", "QA"],
     "grupo": "Interacción",
     "subgrupo": "Teclado",
     "descripcion": "Evitar que el foco del teclado quede atrapado en algún elemento, impidiendo que el usuario avance o retroceda mediante tabulación normal.",
@@ -85,6 +87,7 @@
     "titulo": "Atajos de teclado",
     "nivel": "A",
     "version": "2.1",
+    "perfiles": ["Front", "UX"],
     "grupo": "Interacción",
     "subgrupo": "Teclado",
     "descripcion": "Evitar activaciones involuntarias causadas por atajos de teclado basados en una única tecla imprimible, especialmente para usuarios que emplean control por voz.",
@@ -120,6 +123,7 @@
     "titulo": "Tiempo ajustable",
     "nivel": "A",
     "version": "2.0",
+    "perfiles": ["UX", "Front"],
     "grupo": "Interacción",
     "subgrupo": "Tiempo",
     "descripcion": "Asegurar que los usuarios disponen de tiempo suficiente para leer y utilizar el contenido, y que cualquier límite temporal pueda ser ajustado, detenido o extendido.",
@@ -131,7 +135,7 @@
       { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
       { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
       { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
-      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/Cognitiva.png" }
+      { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
     ],
 
     "subcriterios": [
@@ -171,6 +175,7 @@
     "titulo": "Pausar, detener, ocultar",
     "nivel": "A",
     "version": "2.0",
+    "perfiles": ["UX", "Front", "QA"],
     "grupo": "Interacción",
     "subgrupo": "Tiempo",
     "descripcion": "Evitar distracciones permitiendo pausar, detener u ocultar contenido en movimiento o actualizaciones automáticas.",
@@ -211,13 +216,14 @@
     "titulo": "Umbral de tres destellos o menos",
     "nivel": "A",
     "version": "2.0",
+    "perfiles": ["UX", "UI/Gráfico"],
     "grupo": "Interacción",
     "subgrupo": "Seguridad visual",
     "descripcion": "Evitar ataques fotosensitivos asegurando que el contenido no presenta destellos superiores a tres por segundo o que el área destellante es suficientemente pequeña.",
     "url": "https://wikiwcag.udl.cat/Principio_2/2.3_Reacciones_f%C3%ADsicas#2.3.1_-_UMBRAL_DE_TRES_DESTELLOS_O_MENOS_NIVEL:_A",
 
     "discapacidades": [
-      { "id": "photosensitive", "titulo": "Epilepsia fotosensible", "icon": "assets/Epilepsia.png" }
+      { "id": "cognitive", "titulo": "Epilepsia fotosensible", "icon": "assets/Cognitiva.png" }
     ],
 
     "subcriterios": [
@@ -244,6 +250,7 @@
       "titulo": "Evitar bloques",
       "nivel": "A",
       "version": "2.1",
+      "perfiles": ["Front", "UX", "AI"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Permitir a las personas que navegan secuencialmente saltar bloques de contenido repetido y acceder directamente al contenido principal.",
@@ -271,6 +278,7 @@
       "titulo": "Titulado de páginas",
       "nivel": "A",
       "version": "2.0",
+      "perfiles": ["UX", "Copy"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Ayudar a los usuarios a orientarse asegurando que cada página tiene un título descriptivo.",
@@ -280,8 +288,8 @@
         { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
         { "id": "motor", "titulo": "Severa movilidad reducida", "icon": "assets/Motriz.png" },
         { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
-        { "id": "reading", "titulo": "Dislexia / lectura", "icon": "assets/Cognitiva.png" },
-        { "id": "memory", "titulo": "Memoria a corto plazo", "icon": "assets/Cognitiva.png" }
+        { "id": "learning", "titulo": "Dislexia / lectura", "icon": "assets/LenguajeAprendizaje.png" }
+        
       ],
   
       "subcriterios": [
@@ -301,6 +309,7 @@
       "titulo": "Orden del foco",
       "nivel": "A",
       "version": "2.0",
+      "perfiles": ["Front", "UX", "QA"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Garantizar que el orden de tabulación tiene sentido y permite encontrar la información correctamente.",
@@ -335,6 +344,7 @@
       "titulo": "Propósito de los enlaces (en contexto)",
       "nivel": "A",
       "version": "2.0",
+      "perfiles": ["Copy", "UX"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Ayudar a los usuarios a comprender el propósito de cada enlace mediante su texto o su contexto inmediato.",
@@ -363,6 +373,7 @@
       "titulo": "Múltiples vías",
       "nivel": "AA",
       "version": "2.0",
+      "perfiles": ["UX", "AI"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Asegurar que los usuarios pueden localizar el contenido mediante múltiples métodos.",
@@ -402,6 +413,7 @@
       "titulo": "Encabezados y etiquetas",
       "nivel": "AA",
       "version": "2.0",
+      "perfiles": ["UX", "Copy", "Front"],
       "grupo": "Interacción",
       "subgrupo": "Navegación",
       "descripcion": "Ayudar a los usuarios a comprender la estructura y propósito de la información mediante encabezados y etiquetas claras.",
@@ -409,8 +421,7 @@
   
       "discapacidades": [
         { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
-        { "id": "reading", "titulo": "Dificultades de lectura", "icon": "assets/Cognitiva.png" },
-        { "id": "memory", "titulo": "Problemas de memoria", "icon": "assets/Cognitiva.png" }
+        { "id": "learning", "titulo": "Dificultades de lectura", "icon": "assets/LenguajeAprendizaje.png" }
       ],
   
       "subcriterios": [
@@ -436,6 +447,7 @@
       "titulo": "Foco visible",
       "nivel": "AA",
       "version": "2.0",
+      "perfiles": ["UX", "UI/Gráfico", "Front", "QA"],
       "grupo": "Interacción",
       "subgrupo": "Teclado",
       "descripcion": "Asegurar que el indicador de foco es claramente visible para el usuario.",
@@ -444,7 +456,7 @@
       "discapacidades": [
         { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
         { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
-        { "id": "attention", "titulo": "Déficit de atención", "icon": "assets/Cognitiva.png" }
+        { "id": "cognitive", "titulo": "Déficit de atención", "icon": "assets/Cognitiva.png" }
       ],
   
       "subcriterios": [
@@ -464,6 +476,7 @@
       "titulo": "Foco no oculto (mínimo)",
       "nivel": "AA",
       "version": "2.2",
+      "perfiles": ["UX", "UI/Gráfico", "Front", "QA"],
       "grupo": "Interacción",
       "subgrupo": "Teclado",
       "descripcion": "Cuando un componente recibe el foco del teclado, no debe quedar completamente oculto por contenido superpuesto.",
@@ -492,6 +505,7 @@
       "titulo": "Gestos del puntero",
       "nivel": "A",
       "version": "2.1",
+      "perfiles": ["Front", "UX"],
       "grupo": "Interacción",
       "subgrupo": "Puntero",
       "descripcion": "Asegurar que las funcionalidades basadas en gestos multipunto o gestos de trayectoria también pueden operarse mediante un único punto de contacto.",
@@ -518,6 +532,7 @@
       "titulo": "Cancelación del puntero",
       "nivel": "A",
       "version": "2.1",
+      "perfiles": ["Front"],
       "grupo": "Interacción",
       "subgrupo": "Puntero",
       "descripcion": "Prevenir activaciones accidentales permitiendo cancelar, deshacer o retrasar acciones realizadas por puntero.",
@@ -547,6 +562,7 @@
       "titulo": "Etiqueta en el nombre",
       "nivel": "A",
       "version": "2.1",
+      "perfiles": ["UX", "Front"],
       "grupo": "Interacción",
       "subgrupo": "Puntero",
       "descripcion": "El texto visible de las etiquetas debe formar parte del nombre accesible de los controles.",
@@ -574,6 +590,7 @@
       "titulo": "Activación mediante movimiento",
       "nivel": "A",
       "version": "2.1",
+      "perfiles": ["Front", "UX"],
       "grupo": "Interacción",
       "subgrupo": "Movimiento",
       "descripcion": "Las funcionalidad activadas mediante movimiento deben poder realizarse desde el UI y permitir desactivar la activación por movimiento.",
@@ -600,6 +617,7 @@
       "titulo": "Movimientos de arrastre",
       "nivel": "AA",
       "version": "2.2",
+      "perfiles": ["UX", "Front", "QA"],
       "grupo": "Interacción",
       "subgrupo": "Movimiento",
       "descripcion": "Las funcionalidades basadas en arrastrar deben poder operarse mediante un único punto sin necesitar arrastre, salvo que arrastrar sea esencial.",
@@ -626,6 +644,7 @@
       "titulo": "Tamaño mínimo del objetivo",
       "nivel": "AA",
       "version": "2.2",
+      "perfiles": ["UX", "Front", "UI/Gráfico", "QA"],
       "grupo": "Interacción",
       "subgrupo": "Puntero",
       "descripcion": "Garantizar que los elementos interactivos son suficientemente grandes para evitar errores al pulsar.",
