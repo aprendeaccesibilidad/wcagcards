@@ -352,6 +352,7 @@
       "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.4_-_Prop%C3%B3sito_de_los_enlaces_(en_contexto)_-_Nivel:A",
   
       "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
         { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
         { "id": "motor", "titulo": "Motriz", "icon": "assets/Motriz.png" },
         { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
@@ -381,6 +382,7 @@
       "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.5_-_Multiples_v%C3%ADas_-_Nivel:_AA",
   
       "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
         { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
         { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
       ],
@@ -421,6 +423,7 @@
       "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.6_-_Encabezados_y_etiquetas_-_Nivel:_AA",
   
       "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
         { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
         { "id": "learning", "titulo": "Dificultades de lectura", "icon": "assets/LenguajeAprendizaje.png" }
       ],

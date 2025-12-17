@@ -81,6 +81,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.1_-_Al_recibir_el_foco_-_Nivel:_A",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "visual", "titulo": "Discapacidad visual", "icon": "assets/Bajavision.png" },
       { "id": "motor", "titulo": "Discapacidad motriz", "icon": "assets/Motriz.png" },
       { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
@@ -140,6 +141,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.3_-_Navegaci%C3%B3n_coherente_-_Nivel:_AA",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "visual", "titulo": "Limitación visual", "icon": "assets/Bajavision.png" },
       { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
     ],
@@ -168,6 +170,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.4_-_Identificaci%C3%B3n_coherente_-_Nivel:_AA",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
     ],
 
@@ -195,6 +198,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.2_Predecible#3.2.6_-_Ayuda_consistente_-_Nivel:_A",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "cognitive", "titulo": "Discapacidad cognitiva", "icon": "assets/Cognitiva.png" },
       { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
     ],
@@ -259,6 +263,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.2_-_Etiquetas_o_instrucciones_-_Nivel:_A",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" },
       { "id": "learning", "titulo": "Dificultades de aprendizaje", "icon": "assets/LenguajeAprendizaje.png" }
       
@@ -396,6 +401,7 @@
     "url": "https://wikiwcag.udl.cat/Principio_3/3.3_Assistencia_en_los_input#3.3.8_-_Autenticaci%C3%B3n_accessible_-_Nivel:_AA",
 
     "discapacidades": [
+      { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
       { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
     ],
 
