@@ -257,6 +257,7 @@
       "url": "https://wikiwcag.udl.cat/Principio_2/2.4_Navegable#2.4.1_-_Evitar_bloques_-_Nivel:_A",
   
       "discapacidades": [
+        { "id": "blind", "titulo": "Ceguera total", "icon": "assets/Sinvision.png" },
         { "id": "lowvision", "titulo": "Baja visión", "icon": "assets/Bajavision.png" },
         { "id": "cognitive", "titulo": "Cognitiva", "icon": "assets/Cognitiva.png" }
       ],
